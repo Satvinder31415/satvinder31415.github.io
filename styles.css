@@ -36,7 +36,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round
 .container { width: min(960px, calc(100% - 48px)); margin-inline: auto; }
 .site-header { border-bottom: 1px solid var(--line); }
 .profile { position: relative; display: flex; align-items: center; gap: 28px; padding-block: 48px 34px; }
-.portrait { width: 144px; height: 144px; flex-shrink: 0; border-radius: 50%; object-fit: cover; border: 4px solid var(--surface); box-shadow: 0 0 0 1px var(--line); }
+.portrait { width: 176px; height: 176px; flex-shrink: 0; border-radius: 50%; object-fit: cover; border: 4px solid var(--surface); box-shadow: 0 0 0 1px var(--line); }
 .profile-text { min-width: 0; padding-right: 35px; }
 .eyebrow { color: var(--muted); font-size: 11px; letter-spacing: 1.8px; text-transform: uppercase; font-weight: 650; margin: 0 0 3px; }
 h1 { font-size: clamp(28px, 4.5vw, 36px); letter-spacing: -1.1px; line-height: 1.25; font-weight: 700; margin: 0 0 9px; }
@@ -102,7 +102,7 @@ p { margin: 0 0 12px; }
 @media (max-width: 700px) {
   .container { width: calc(100% - 32px); }
   .profile { align-items: flex-start; gap: 21px; padding-block: 32px 25px; }
-  .portrait { width: 108px; height: 108px; }
+  .portrait { width: 128px; height: 128px; }
   .profile-text { padding-right: 0; }
   .eyebrow { margin-top: 3px; font-size: 10px; }
   h1 { padding-right: 33px; font-size: 29px; }
@@ -122,7 +122,7 @@ p { margin: 0 0 12px; }
 }
 @media (max-width: 450px) {
   .profile { flex-direction: column; gap: 19px; }
-  .portrait { width: 112px; height: 112px; }
+  .portrait { width: 136px; height: 136px; }
   h1 { font-size: 31px; }
   .profile-text { width: 100%; }
   .eyebrow { margin-top: 0; }
