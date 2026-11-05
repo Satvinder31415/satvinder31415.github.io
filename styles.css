@@ -95,6 +95,7 @@ p { margin: 0 0 12px; }
 .entry .date { color: var(--muted); font-size: 12px; white-space: nowrap; }
 .muted { color: var(--muted); }
 .position { font-style: italic; }
+.degree-separator { display: inline-block; padding: 0 9px; font-style: normal; color: var(--muted); }
 .contact-panel { display: flex; justify-content: space-between; gap: 20px; align-items: center; }
 .contact-panel h2 { margin-bottom: 12px; }
 .contact-panel p { margin-bottom: 4px; font-size: 14px; }
